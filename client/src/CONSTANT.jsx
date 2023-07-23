@@ -1,8 +1,13 @@
 import axios from "axios";
 
+// export const CONSTANT = {
+//   server: "http://localhost:4000/", // CHANGE WITH YOUR BACKEND LINK (/ is MUST IN END)
+//   client: "http://localhost:5173/", // CHANGE WITH YOUR FRONTEND LINK (/ is MUST IN END)
+// };
+
 export const CONSTANT = {
-  server: "http://localhost:4000/", // CHANGE WITH YOUR BACKEND LINK (/ is MUST IN END)
-  client: "http://localhost:5173/", // CHANGE WITH YOUR FRONTEND LINK (/ is MUST IN END)
+  server: "https://deployment-test-five.herokuapp.com/", // CHANGE WITH YOUR BACKEND LINK (/ is MUST IN END)
+  client: "https://deployment-test-five.herokuapp.com/", // CHANGE WITH YOUR FRONTEND LINK (/ is MUST IN END)
 };
 
 export const ADMIN_CREDENTIALS = {
