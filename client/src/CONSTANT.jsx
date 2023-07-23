@@ -5,10 +5,15 @@ import axios from "axios";
 //   client: "http://localhost:5173/", // CHANGE WITH YOUR FRONTEND LINK (/ is MUST IN END)
 // };
 
+// export const CONSTANT = {
+//   server: "https://deployment-test-five.herokuapp.com/", // CHANGE WITH YOUR BACKEND LINK (/ is MUST IN END)
+//   client: "https://deployment-test-five.herokuapp.com/", // CHANGE WITH YOUR FRONTEND LINK (/ is MUST IN END)
+// };
+
 export const CONSTANT = {
-  server: "https://deployment-test-five.herokuapp.com/", // CHANGE WITH YOUR BACKEND LINK (/ is MUST IN END)
-  client: "https://deployment-test-five.herokuapp.com/", // CHANGE WITH YOUR FRONTEND LINK (/ is MUST IN END)
-};
+  server: "https://deployment-test-five.up.railway.app/",
+  client: "https://deployment-test-five.up.railway.app/",
+}
 
 export const ADMIN_CREDENTIALS = {
   username: "admin",
